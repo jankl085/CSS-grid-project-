@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.content {
+    grid-column: span 6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.text-box {
+    background-color: #f9a825;
+    padding: 20px;
+    text-align: center;
+}
