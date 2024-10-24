@@ -24,3 +24,14 @@ body {
     padding: 20px;
     text-align: center;
 }
+
+.text-column, .left-box, .right-box {
+    background-color: #C8E6C9;
+    padding: 20px;
+}
+
+.photo-placeholder {
+    background-color: #ddd;
+    height: 150px;
+    margin: 20px auto;
+}
