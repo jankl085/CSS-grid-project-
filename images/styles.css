@@ -35,3 +35,8 @@ body {
     height: 150px;
     margin: 20px auto;
 }
+
+.right-box {
+    grid-column: span 2;
+}
+
